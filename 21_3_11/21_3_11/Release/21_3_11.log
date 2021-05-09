@@ -1,0 +1,7 @@
+﻿  Test.cpp
+E:\code\cpp_code\21_3_11\21_3_11\Test.cpp(23,18): error C2664: “void Swap<int>(T &,T &)”: 无法将参数 2 从“double”转换为“T &”
+          with
+          [
+              T=int
+          ]
+E:\code\cpp_code\21_3_11\21_3_11\Test.cpp(8,6): message : 参见“Swap”的声明
