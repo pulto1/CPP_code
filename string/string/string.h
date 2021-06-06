@@ -222,10 +222,10 @@ namespace bit
 				reserve(_size + len);
 			}
 
-			size_t end = _size + len;
-			while (end >= pos + len)
+			size_t end = _size + len + 1;
+			while (end > pos + len)
 			{
-				_str[end] = _str[end - len];
+				_str[end - 1] = _str[end - len - 1];
 				--end;
 			}
 

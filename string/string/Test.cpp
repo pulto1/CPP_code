@@ -2,6 +2,8 @@
 
 #include "string.h"
 
+
+
 void print(const bit::string& s)
 {
 	bit::string::const_iterator it = s.begin();
